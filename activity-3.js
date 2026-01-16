@@ -1,75 +1,31 @@
-// Activity 3: Functions with Multiple Parameters to Arrow Functions
-// Convert each function below to an arrow function
+// Activity 2: Functions with Single Parameter to Arrow Functions
 
 // Problem 1
-function add(a, b) {
-    return a + b;
-}
-// Convert to arrow function:
-
+const greet = name => "Hello, " + name + "!";
 
 // Problem 2
-function multiply(x, y) {
-    return x * y;
-}
-// Convert to arrow function:
-
+const square = number => number * number;
 
 // Problem 3
-function subtract(num1, num2) {
-    return num1 - num2;
-}
-// Convert to arrow function:
-
+const double = value => value * 2;
 
 // Problem 4
-function divide(dividend, divisor) {
-    return dividend / divisor;
-}
-// Convert to arrow function:
-
+const isEven = num => num % 2 === 0;
 
 // Problem 5
-function greet(firstName, lastName) {
-    return "Hello, " + firstName + " " + lastName;
-}
-// Convert to arrow function:
-
+const capitalize = str => str.toUpperCase();
 
 // Problem 6
-function findMax(a, b) {
-    return a > b ? a : b;
-}
-// Convert to arrow function:
-
+const getLength = text => text.length;
 
 // Problem 7
-function findMin(x, y) {
-    if (x < y) {
-        return x;
-    }
-    return y;
-}
-// Convert to arrow function:
-
+const addOne = x => x + 1;
 
 // Problem 8
-function concatenate(str1, str2) {
-    return str1 + str2;
-}
-// Convert to arrow function:
-
+const isPositive = n => n > 0;
 
 // Problem 9
-function power(base, exponent) {
-    return Math.pow(base, exponent);
-}
-// Convert to arrow function:
-
+const reverseString = s => s.split("").reverse().join("");
 
 // Problem 10
-function calculateArea(length, width) {
-    return length * width;
-}
-// Convert to arrow function:
-
+const getType = value => typeof value;
